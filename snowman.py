@@ -1,5 +1,10 @@
 import random
 from ascii_art import STAGES
+# snowman.py
+from game_logic import play_game
+
+if __name__ == "__main__":
+    play_game()
 
 # List of secret words
 WORDS = ["python", "git", "github", "snowman", "meltdown"]
